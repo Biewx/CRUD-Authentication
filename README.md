@@ -85,8 +85,7 @@ Authorization: Bearer SEU_TOKEN
 | DELETE | /api/tarefas/{id} | Excluir tarefa |
 
 ## Arquitetura
-
-- O projeto segue uma separação clara de camadas:
+### O projeto segue uma separação clara de camadas:
 - Controllers → recebem requisições e direcionam o fluxo
 - Requests → validam dados de entrada
 - Services → contêm regras de negócio
